@@ -1,0 +1,3175 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sspbi
+</name>
+</assembly>
+<members>
+<member name="F:sspbi.dashboard3.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.dashboard3.ASPxDashboardViewer1">
+	<summary>
+ASPxDashboardViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxRadioButtonListActividadDedica">
+	<summary>
+ASPxRadioButtonListActividadDedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxActividadOtro">
+	<summary>
+ASPxTextBoxActividadOtro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxCoordenadas">
+	<summary>
+ASPxTextBoxCoordenadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxCoordenadasOtros">
+	<summary>
+ASPxTextBoxCoordenadasOtros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxFatalidadT">
+	<summary>
+ASPxTextBoxFatalidadT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxGravesT">
+	<summary>
+ASPxTextBoxGravesT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxMenoresT">
+	<summary>
+ASPxTextBoxMenoresT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxNingunoT">
+	<summary>
+ASPxTextBoxNingunoT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxFatalidadP">
+	<summary>
+ASPxTextBoxFatalidadP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxGravesP">
+	<summary>
+ASPxTextBoxGravesP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxMenoresP">
+	<summary>
+ASPxTextBoxMenoresP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxNingunoP">
+	<summary>
+ASPxTextBoxNingunoP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxRadioButtonListDaniosAeronave">
+	<summary>
+ASPxRadioButtonListDaniosAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxMemoDanosTerceros">
+	<summary>
+ASPxMemoDanosTerceros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxCondicionesMET">
+	<summary>
+ASPxComboBoxCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.SqlDataSourceCondicionesMET">
+	<summary>
+SqlDataSourceCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxCondicionesLuz">
+	<summary>
+ASPxComboBoxCondicionesLuz control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxIdentificacion">
+	<summary>
+ASPxTextBoxIdentificacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxOperador">
+	<summary>
+ASPxTextBoxOperador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxTipoAeronave">
+	<summary>
+ASPxTextBoxTipoAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxReglasVuelo">
+	<summary>
+ASPxComboBoxReglasVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxAeropuertosSalida">
+	<summary>
+ASPxComboBoxAeropuertosSalida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxAeropuertosDestino">
+	<summary>
+ASPxComboBoxAeropuertosDestino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxAltitudNivelVuelo">
+	<summary>
+ASPxTextBoxAltitudNivelVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxComboBoxTipoOperacion">
+	<summary>
+ASPxComboBoxTipoOperacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxRadioButtonListFaseVuelo">
+	<summary>
+ASPxRadioButtonListFaseVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxTextBoxFaseVueloOtro">
+	<summary>
+ASPxTextBoxFaseVueloOtro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxMemoDescripcion">
+	<summary>
+ASPxMemoDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxUploadControl1">
+	<summary>
+ASPxUploadControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_RIPO.ASPxButtonRegresar">
+	<summary>
+ASPxButtonRegresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_MERC.formulario_MERC">
+	<summary>
+formulario_MERC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxTextBoxProveedorServicios">
+	<summary>
+ASPxTextBoxProveedorServicios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxMemoDescripcionNarrativa">
+	<summary>
+ASPxMemoDescripcionNarrativa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxUploadControlArchivo">
+	<summary>
+ASPxUploadControlArchivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario_ATS.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.ErrorPagina.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.ErrorPagina.TextBoxError">
+	<summary>
+TextBoxError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Win_Dashboards.Dashboard3.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard3.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard3.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:sspbi._default.ASPxRoundPanel1">
+	<summary>
+ASPxRoundPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.ASPxButtonAdministracionUsuarios">
+	<summary>
+ASPxButtonAdministracionUsuarios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.ASPxGridView1">
+	<summary>
+ASPxGridView1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.Sql_SSP">
+	<summary>
+Sql_SSP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.Sql_SSP0">
+	<summary>
+Sql_SSP0 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.Sql_SSP1">
+	<summary>
+Sql_SSP1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.Sql_SSP2">
+	<summary>
+Sql_SSP2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.sspbi.Sql_SSP3">
+	<summary>
+Sql_SSP3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.dashboard2.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.dashboard2.ASPxDashboardViewer1">
+	<summary>
+ASPxDashboardViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes_RIPO.formulario_IBIS">
+	<summary>
+formulario_IBIS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes_RIPO.formulario_RIPO">
+	<summary>
+formulario_RIPO control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_LHD.formulario_LHD">
+	<summary>
+formulario_LHD control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_sucesos_ATS.formulario_ATS">
+	<summary>
+formulario_ATS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxCallbackVoluntarios">
+	<summary>
+ASPxCallbackVoluntarios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxTextBoxProveedorServicios">
+	<summary>
+ASPxTextBoxProveedorServicios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxMemoDescripcionNarrativa">
+	<summary>
+ASPxMemoDescripcionNarrativa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxUploadControlArchivo">
+	<summary>
+ASPxUploadControlArchivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_voluntario.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListActividadDedica">
+	<summary>
+ASPxRadioButtonListActividadDedica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxPista">
+	<summary>
+ASPxTextBoxPista control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxCoordenadas">
+	<summary>
+ASPxTextBoxCoordenadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonCoordenadasNorteSur">
+	<summary>
+ASPxRadioButtonCoordenadasNorteSur control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxAlturaPies">
+	<summary>
+ASPxTextBoxAlturaPies control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxVelocidadIndicada">
+	<summary>
+ASPxTextBoxVelocidadIndicada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxComboBoxCondicionesLuz">
+	<summary>
+ASPxComboBoxCondicionesLuz control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxIdentificacion">
+	<summary>
+ASPxTextBoxIdentificacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxOperador">
+	<summary>
+ASPxTextBoxOperador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxTipoAeronave">
+	<summary>
+ASPxTextBoxTipoAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxModeloMotor">
+	<summary>
+ASPxTextBoxModeloMotor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxPosicionRuta">
+	<summary>
+ASPxTextBoxPosicionRuta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListFaseVuelo">
+	<summary>
+ASPxRadioButtonListFaseVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListCantidadAvesObservadas">
+	<summary>
+ASPxRadioButtonListCantidadAvesObservadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxCheckBoxListPartesGolpeadas">
+	<summary>
+ASPxCheckBoxListPartesGolpeadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxCheckBoxListConsecuenciasVuelo">
+	<summary>
+ASPxCheckBoxListConsecuenciasVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxCheckBoxListCondicionesCielo">
+	<summary>
+ASPxCheckBoxListCondicionesCielo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListCantidadAvesGolpeadas">
+	<summary>
+ASPxRadioButtonListCantidadAvesGolpeadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxIdentificacionfauna">
+	<summary>
+ASPxTextBoxIdentificacionfauna control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxCheckBoxListPartesDaniadas">
+	<summary>
+ASPxCheckBoxListPartesDaniadas control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxCheckBoxListPrecipitacion">
+	<summary>
+ASPxCheckBoxListPrecipitacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListTamanioAves">
+	<summary>
+ASPxRadioButtonListTamanioAves control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxRadioButtonListAdvertenciaPiloto">
+	<summary>
+ASPxRadioButtonListAdvertenciaPiloto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxTiempoFueraServicioAeronave">
+	<summary>
+ASPxTextBoxTiempoFueraServicioAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxCostoReparacion">
+	<summary>
+ASPxTextBoxCostoReparacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxMemoDescripcion">
+	<summary>
+ASPxMemoDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxTextBoxOtrosCostos">
+	<summary>
+ASPxTextBoxOtrosCostos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxUploadControl1">
+	<summary>
+ASPxUploadControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_IBIS.ASPxButtonRegresar">
+	<summary>
+ASPxButtonRegresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.dashboard1.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.dashboard1.ASPxDashboardViewer1">
+	<summary>
+ASPxDashboardViewer1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Win_Dashboards.Dashboard2.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard2.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard2.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:sspbi.reporte_accidentes_incidentes_RIPO.formulario_ACTIL">
+	<summary>
+formulario_ACTIL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Usuarios.ASPxButtonRegresar">
+	<summary>
+ASPxButtonRegresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Usuarios.ASPxGridViewUsuarios">
+	<summary>
+ASPxGridViewUsuarios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Usuarios.SqlDataSourceUsuarios">
+	<summary>
+SqlDataSourceUsuarios control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Usuarios.SqlDataSourceNivelAcceso">
+	<summary>
+SqlDataSourceNivelAcceso control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxRadioButtonListEnviadoPor">
+	<summary>
+ASPxRadioButtonListEnviadoPor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxFabricanteAeronave">
+	<summary>
+ASPxTextBoxFabricanteAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxModeloAeronave">
+	<summary>
+ASPxTextBoxModeloAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNumeroSerieAeronave">
+	<summary>
+ASPxTextBoxNumeroSerieAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxFabricanteMotor">
+	<summary>
+ASPxTextBoxFabricanteMotor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxModeloMotor">
+	<summary>
+ASPxTextBoxModeloMotor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNumeroSerieMotor">
+	<summary>
+ASPxTextBoxNumeroSerieMotor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxFabricanteHelice">
+	<summary>
+ASPxTextBoxFabricanteHelice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxModeloHelice">
+	<summary>
+ASPxTextBoxModeloHelice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNumeroSerieHelice">
+	<summary>
+ASPxTextBoxNumeroSerieHelice control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxRadioButtonListFasesFuncionamiento">
+	<summary>
+ASPxRadioButtonListFasesFuncionamiento control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNombreParte">
+	<summary>
+ASPxTextBoxNombreParte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxUbicacionParte">
+	<summary>
+ASPxTextBoxUbicacionParte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxTiempoOVH">
+	<summary>
+ASPxTextBoxTiempoOVH control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxModeloFabricante">
+	<summary>
+ASPxTextBoxModeloFabricante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNumeroParteFabricante">
+	<summary>
+ASPxTextBoxNumeroParteFabricante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxComponenteSistema">
+	<summary>
+ASPxTextBoxComponenteSistema control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNombreComponente">
+	<summary>
+ASPxTextBoxNombreComponente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxNumSerie">
+	<summary>
+ASPxTextBoxNumSerie control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxCondicionParte">
+	<summary>
+ASPxTextBoxCondicionParte control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxTiempoTotal">
+	<summary>
+ASPxTextBoxTiempoTotal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxTextBoxFabricante">
+	<summary>
+ASPxTextBoxFabricante control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxMemoTexto">
+	<summary>
+ASPxMemoTexto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxUploadControlArchivos">
+	<summary>
+ASPxUploadControlArchivos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxButtonEnviarFormulario">
+	<summary>
+ASPxButtonEnviarFormulario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_aero.ASPxButton2">
+	<summary>
+ASPxButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:sspbi.My.Resources.Dashboard2.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:sspbi.My.Resources.Dashboard2.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:sspbi.My.Resources.Dashboard2.DashboardSqlDataSource1_ResultSchemaSerializable">
+	<summary>
+  Looks up a localized string similar to PERhdGFTZXQgTmFtZT0iU1FMIERhdGEgU291cmNlIDEiPjxWaWV3IE5hbWU9IlJlcG9ydGVzX1NTUF9NYXN0ZXIiPjxGaWVsZCBOYW1lPSJpZCIgVHlwZT0iSW50NjQiIC8+PEZpZWxkIE5hbWU9ImNpdWRhZCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJwYWlzIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9ImFlcm9wdWVydG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iYWVyb2Ryb21vIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InB1bnRvX3J1dGFfb2FjaSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJwdW50b19ydXRhX2lhdGEiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iYWVyb3BfZGVzY3JpcCIgVHlwZT0iU3RyaW5n [rest of string was truncated]";.
+</summary>
+</member><member name="T:sspbi.My.Resources.Dashboard2">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:sspbi.Main_Menu.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.ASPxPanel1">
+	<summary>
+ASPxPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.ASPxMenuPrincipal">
+	<summary>
+ASPxMenuPrincipal control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.ContentPlaceHolderBody">
+	<summary>
+ContentPlaceHolderBody control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Main_Menu.ContentPlaceHolderForms">
+	<summary>
+ContentPlaceHolderForms control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxIdentificacionNumVuelo">
+	<summary>
+ASPxTextBoxIdentificacionNumVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxInstalacion">
+	<summary>
+ASPxTextBoxInstalacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxOperadorAerolinea">
+	<summary>
+ASPxTextBoxOperadorAerolinea control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxTipoAeronave">
+	<summary>
+ASPxTextBoxTipoAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxClaseMercancia">
+	<summary>
+ASPxTextBoxClaseMercancia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxComboBoxAeropuertosSalida">
+	<summary>
+ASPxComboBoxAeropuertosSalida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxComboBoxAeropuertosDestino">
+	<summary>
+ASPxComboBoxAeropuertosDestino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxMPDeclarada">
+	<summary>
+ASPxTextBoxMPDeclarada control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxMarcaUNembalaje">
+	<summary>
+ASPxTextBoxMarcaUNembalaje control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxUNIDmercancia">
+	<summary>
+ASPxTextBoxUNIDmercancia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxOculta">
+	<summary>
+ASPxTextBoxOculta control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxTextBoxDenominacionMercancia">
+	<summary>
+ASPxTextBoxDenominacionMercancia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxMemoDescripcion">
+	<summary>
+ASPxMemoDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxUploadControl1">
+	<summary>
+ASPxUploadControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_MERC.ASPxButtonRegresar">
+	<summary>
+ASPxButtonRegresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxRoundPanel1">
+	<summary>
+ASPxRoundPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel1">
+	<summary>
+ASPxLabel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel5">
+	<summary>
+ASPxLabel5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel2">
+	<summary>
+ASPxLabel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel3">
+	<summary>
+ASPxLabel3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel4">
+	<summary>
+ASPxLabel4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel6">
+	<summary>
+ASPxLabel6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel7">
+	<summary>
+ASPxLabel7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel12">
+	<summary>
+ASPxLabel12 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxLatitud">
+	<summary>
+ASPxTextBoxLatitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonListLatitudNorteSur">
+	<summary>
+RadioButtonListLatitudNorteSur control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel13">
+	<summary>
+ASPxLabel13 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxLongitud">
+	<summary>
+ASPxTextBoxLongitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonListLongitudEsteOeste">
+	<summary>
+RadioButtonListLongitudEsteOeste control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel8">
+	<summary>
+ASPxLabel8 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxDateEditFechaIncidente">
+	<summary>
+ASPxDateEditFechaIncidente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel10">
+	<summary>
+ASPxLabel10 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel11">
+	<summary>
+ASPxLabel11 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel14">
+	<summary>
+ASPxLabel14 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel15">
+	<summary>
+ASPxLabel15 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxFatalidadT">
+	<summary>
+ASPxTextBoxFatalidadT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxGravesT">
+	<summary>
+ASPxTextBoxGravesT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxMenoresT">
+	<summary>
+ASPxTextBoxMenoresT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxNingunoT">
+	<summary>
+ASPxTextBoxNingunoT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxFatalidadP">
+	<summary>
+ASPxTextBoxFatalidadP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxMenoresP">
+	<summary>
+ASPxTextBoxMenoresP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxNingunoP">
+	<summary>
+ASPxTextBoxNingunoP control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonListDanoAeronave">
+	<summary>
+RadioButtonListDanoAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxMemoTercerosEsp">
+	<summary>
+ASPxMemoTercerosEsp control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonCondicionesMet">
+	<summary>
+RadioButtonCondicionesMet control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonCondicionesLuz">
+	<summary>
+RadioButtonCondicionesLuz control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxLabel16">
+	<summary>
+ASPxLabel16 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxTipoModelo">
+	<summary>
+ASPxTextBoxTipoModelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxOperador">
+	<summary>
+ASPxTextBoxOperador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxAerodromoDestino">
+	<summary>
+ASPxTextBoxAerodromoDestino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxDuracionVuelo">
+	<summary>
+ASPxTextBoxDuracionVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxMatricula">
+	<summary>
+ASPxTextBoxMatricula control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxAerodromoSalida">
+	<summary>
+ASPxTextBoxAerodromoSalida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxFaseVuelo">
+	<summary>
+ASPxTextBoxFaseVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxNumVuelo">
+	<summary>
+ASPxTextBoxNumVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonTipoOperacion">
+	<summary>
+RadioButtonTipoOperacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxTextBoxOtros">
+	<summary>
+ASPxTextBoxOtros control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.RadioButtonCategoriaVuelo">
+	<summary>
+RadioButtonCategoriaVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxMemoDescripcion">
+	<summary>
+ASPxMemoDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxUploadControlArchivo">
+	<summary>
+ASPxUploadControlArchivo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.UpdatePanel2">
+	<summary>
+UpdatePanel2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_accidentes_incidentes.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.FAQ.ASPxPageControl1">
+	<summary>
+ASPxPageControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Win_Dashboards.Dashboard1.components">
+	<summary> 
+ Required designer variable.
+ </summary>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard1.Dispose(System.Boolean)">
+	<summary> 
+ Clean up any resources being used.
+ </summary>
+	<param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+</member><member name="M:sspbi.Win_Dashboards.Dashboard1.InitializeComponent">
+	<summary> 
+ Required method for Designer support - do not modify 
+ the contents of this method with the code editor.
+ </summary>
+</member><member name="F:sspbi.Login.ASPxRoundPanel1">
+	<summary>
+ASPxRoundPanel1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Login.Image2">
+	<summary>
+Image2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Login.Image3">
+	<summary>
+Image3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Login.ASPxTextBoxUsuario">
+	<summary>
+ASPxTextBoxUsuario control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Login.ASPxTextBoxPassword">
+	<summary>
+ASPxTextBoxPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.Login.ASPxButton1">
+	<summary>
+ASPxButton1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxInstalacion">
+	<summary>
+ASPxTextBoxInstalacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxAeronave">
+	<summary>
+ASPxTextBoxAeronave control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxIdentificacion">
+	<summary>
+ASPxTextBoxIdentificacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxTextBoxOperador">
+	<summary>
+ASPxTextBoxOperador control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxComboBoxAeropuertosSalida">
+	<summary>
+ASPxComboBoxAeropuertosSalida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxComboBoxAeropuertosDestino">
+	<summary>
+ASPxComboBoxAeropuertosDestino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxMemoDescripcion">
+	<summary>
+ASPxMemoDescripcion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxUploadControl1">
+	<summary>
+ASPxUploadControl1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ACTIL.ASPxButtonRegresar">
+	<summary>
+ASPxButtonRegresar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.reporte_aero.formulario_aero">
+	<summary>
+formulario_aero control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:sspbi.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:sspbi.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:sspbi.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:sspbi.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:sspbi.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:sspbi.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:sspbi.formulario_LHD.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxLicenciaATC">
+	<summary>
+ASPxTextBoxLicenciaATC control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxRutaAerovia">
+	<summary>
+ASPxComboBoxRutaAerovia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.SqlDataSourceRutaAerovia">
+	<summary>
+SqlDataSourceRutaAerovia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxDistanciaAeronaves">
+	<summary>
+ASPxTextBoxDistanciaAeronaves control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxCondicionesMET">
+	<summary>
+ASPxComboBoxCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.SqlDataSourceCondicionesMET">
+	<summary>
+SqlDataSourceCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxRadioButtonListVisualizadoSSR">
+	<summary>
+ASPxRadioButtonListVisualizadoSSR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxFLautorizado">
+	<summary>
+ASPxTextBoxFLautorizado control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxFLincorrecto">
+	<summary>
+ASPxTextBoxFLincorrecto control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxVuelo1">
+	<summary>
+ASPxTextBoxVuelo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxOperadorO1">
+	<summary>
+ASPxTextBoxOperadorO1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxTipoAeronave1">
+	<summary>
+ASPxTextBoxTipoAeronave1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxRegistro1">
+	<summary>
+ASPxTextBoxRegistro1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxModelo1">
+	<summary>
+ASPxTextBoxModelo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxAeropuertos1Salida">
+	<summary>
+ASPxComboBoxAeropuertos1Salida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxAeropuertos1Destino">
+	<summary>
+ASPxComboBoxAeropuertos1Destino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxVuelo2">
+	<summary>
+ASPxTextBoxVuelo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxOperadorO2">
+	<summary>
+ASPxTextBoxOperadorO2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxTipoAeronave2">
+	<summary>
+ASPxTextBoxTipoAeronave2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxRegistro2">
+	<summary>
+ASPxTextBoxRegistro2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxModelo2">
+	<summary>
+ASPxTextBoxModelo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxAeropuertos2Salida">
+	<summary>
+ASPxComboBoxAeropuertos2Salida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxComboBoxAeropuertos2Destino">
+	<summary>
+ASPxComboBoxAeropuertos2Destino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxLatitud">
+	<summary>
+ASPxTextBoxLatitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxLongitud">
+	<summary>
+ASPxTextBoxLongitud control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxNivelVuelo">
+	<summary>
+ASPxTextBoxNivelVuelo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxRadioButtonListFuenteInformacion">
+	<summary>
+ASPxRadioButtonListFuenteInformacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxFuenteInformacionOtro">
+	<summary>
+ASPxTextBoxFuenteInformacionOtro control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxRadioButtonListcumpliranexo2">
+	<summary>
+ASPxRadioButtonListcumpliranexo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxRadioButtonListCargaTrabajo">
+	<summary>
+ASPxRadioButtonListCargaTrabajo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxTextBoxCausasDesviacion">
+	<summary>
+ASPxTextBoxCausasDesviacion control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxMemoDescripcionNarrativa">
+	<summary>
+ASPxMemoDescripcionNarrativa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxUploadControlArchivos">
+	<summary>
+ASPxUploadControlArchivos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_LHD.ASPxButtonRegresoMenu">
+	<summary>
+ASPxButtonRegresoMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ScriptManager1">
+	<summary>
+ScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxNombreApellido">
+	<summary>
+ASPxTextBoxNombreApellido control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxEmail">
+	<summary>
+ASPxTextBoxEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxTelefono">
+	<summary>
+ASPxTextBoxTelefono control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxRadioButtonPosicionSuceso">
+	<summary>
+ASPxRadioButtonPosicionSuceso control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxPosicionActividadDuranteSuceso">
+	<summary>
+ASPxTextBoxPosicionActividadDuranteSuceso control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxDateEditFecha">
+	<summary>
+ASPxDateEditFecha control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTimeEditHora">
+	<summary>
+ASPxTimeEditHora control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxAeropuertos">
+	<summary>
+ASPxComboBoxAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceAeropuertos">
+	<summary>
+SqlDataSourceAeropuertos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxRadioAyuda">
+	<summary>
+ASPxComboBoxRadioAyuda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceRadioayuda">
+	<summary>
+SqlDataSourceRadioayuda control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxWaypoint">
+	<summary>
+ASPxComboBoxWaypoint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceWaypoint">
+	<summary>
+SqlDataSourceWaypoint control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxRutaAerovia">
+	<summary>
+ASPxComboBoxRutaAerovia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceRutaAerovia">
+	<summary>
+SqlDataSourceRutaAerovia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxHorizontalNM">
+	<summary>
+ASPxTextBoxHorizontalNM control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxVerticalFT">
+	<summary>
+ASPxTextBoxVerticalFT control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxCondicionesMET">
+	<summary>
+ASPxComboBoxCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceCondicionesMET">
+	<summary>
+SqlDataSourceCondicionesMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxVisibilidad">
+	<summary>
+ASPxTextBoxVisibilidad control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxFenomenoMET">
+	<summary>
+ASPxComboBoxFenomenoMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceFenomenoMET">
+	<summary>
+SqlDataSourceFenomenoMET control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxRVR">
+	<summary>
+ASPxTextBoxRVR control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxDependenciaATS">
+	<summary>
+ASPxComboBoxDependenciaATS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceDependenciaATS">
+	<summary>
+SqlDataSourceDependenciaATS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxEspacioAereo">
+	<summary>
+ASPxComboBoxEspacioAereo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.SqlDataSourceEspacioAereo">
+	<summary>
+SqlDataSourceEspacioAereo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxRadioButtonTipoIncidente">
+	<summary>
+ASPxRadioButtonTipoIncidente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxOtroIncidente">
+	<summary>
+ASPxTextBoxOtroIncidente control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxVuelo1">
+	<summary>
+ASPxTextBoxVuelo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxOperadorO1">
+	<summary>
+ASPxTextBoxOperadorO1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxTipoAeronave1">
+	<summary>
+ASPxTextBoxTipoAeronave1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxRadioButtonFaseVuelo1">
+	<summary>
+ASPxRadioButtonFaseVuelo1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxFaseVueloOtro1">
+	<summary>
+ASPxTextBoxFaseVueloOtro1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxAeropuertos1Salida">
+	<summary>
+ASPxComboBoxAeropuertos1Salida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxAeropuertos1Destino">
+	<summary>
+ASPxComboBoxAeropuertos1Destino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxModeloNV1">
+	<summary>
+ASPxTextBoxModeloNV1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxVuelo2">
+	<summary>
+ASPxTextBoxVuelo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxOperadorO2">
+	<summary>
+ASPxTextBoxOperadorO2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxTipoAeronave2">
+	<summary>
+ASPxTextBoxTipoAeronave2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxRadioButtonFaseVuelo2">
+	<summary>
+ASPxRadioButtonFaseVuelo2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxFaseVueloOtro2">
+	<summary>
+ASPxTextBoxFaseVueloOtro2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxAeropuertos2Salida">
+	<summary>
+ASPxComboBoxAeropuertos2Salida control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxComboBoxAeropuertos2Destino">
+	<summary>
+ASPxComboBoxAeropuertos2Destino control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxTextBoxNumeroVueloNV2">
+	<summary>
+ASPxTextBoxNumeroVueloNV2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxMemoDescripcionNarrativa">
+	<summary>
+ASPxMemoDescripcionNarrativa control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxUploadControlArchivos">
+	<summary>
+ASPxUploadControlArchivos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxButtonEnviar">
+	<summary>
+ASPxButtonEnviar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.HiddenFieldValor">
+	<summary>
+HiddenFieldValor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxPopupControl2">
+	<summary>
+ASPxPopupControl2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:sspbi.formulario_ATS.ASPxButton2">
+	<summary>
+ASPxButton2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,258 @@
+﻿<%@ Page Title="About" Language="vb" AutoEventWireup="false" MasterPageFile="~/Main_Menu.Master" CodeBehind="FAQ.aspx.vb" Inherits="sspbi.FAQ" %>
+<%@ Register assembly="DevExpress.Web.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" namespace="DevExpress.Web" tagprefix="dx" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+                             ol {
+    counter-reset: item;
+}
+
+ol > li {
+    counter-increment: item;
+}
+
+ol ol > li {
+    display: block;
+}
+
+ol ol > li:before {
+    content: counters(item, ".") ". ";
+    margin-left: -20px;
+}
+ </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
+
+
+    <dx:ASPxPageControl ID="ASPxPageControl1" runat="server" Width="100%"  CssClass="dxtcFixed" ActiveTabIndex="1" EnableHierarchyRecreation="True">
+       <TabPages>
+           <dx:TabPage Text="Instructivo">
+               <ContentCollection>
+                   <dx:ContentControl>
+                       <h4>
+                           INSTRUCTIVO PARA LLENADO DE FORMULARIOS DEL SISTEMA NSSP
+                       </h4>
+                       
+                           <ol>
+                               <li >
+                                   Notificación “RIPO”: para uso de los usuarios del sistema que deseen reportar sucesos de seguridad operacional relacionados con incidentes y peligros operacionales.
+                               </li>
+                              
+                               <li>
+                                   Notificación “ATS”: para uso exclusivo del personal de control de tránsito aéreo a fin de reportar sucesos relacionados con los servicios de tránsito aéreo.
+                               </li>
+
+                               <li>
+                                   Notificación “LHD”: para uso exclusivo del personal de control de tránsito aéreo del centro de control de área Guayaquil, fin reportar sucesos sobre grandes desviaciones de altitud.
+                               </li>
+                               <li>
+                                   Notificación “AERO”: para reportar sucesos relacionados con fallas o mal funcionamiento de sistemas o componentes de una aeronave.
+                               </li>
+                               <li>
+
+                                   Notificación “AVIS”: para reportar sucesos sobre avistamiento de aves / fauna en el aeródromo.
+                               </li>
+                               <li>
+                                   Notificación “MERC”: para reportar sucesos relacionados con el transporte de mercancías peligrosas.
+                               </li>
+                               <li>
+                                   Notificación “LIBRE”: para el reporte libre y voluntario sobre sucesos que podrían afectar a la seguridad.
+                               </li>
+                               <li>
+                                   Notificación “VOLUNTARIA ATS”: para uso del personal de control de tránsito aéreo que voluntariamente desee reportar sucesos ATS que puedan afectar a la seguridad.
+                               </li>
+                               <li>
+                                   Notificación “ACTIL”: para reportar sucesos relacionados con actos ilícitos. 
+                               </li>
+                               
+                               
+                           </ol>
+                       
+                          <h4>Notas</h4> <ul>
+                                   <li> 
+                                       Todos los ítems son de llenado obligatorio.
+                                   </li>
+                                   <li>
+                                       Los ítems de llenado libre que se desconozca la información, están rellenados con cero (0) por default.
+                                   </li>
+                                   <li>
+                                       Los ítems predeterminados como por ejemplo: aeródromos, tiene las siglas “ZZZZ” para poder escoger en caso de lugar desconocido.
+                                   </li>
+                                   <li>
+                                       Algunos ítems predeterminados tiene la palabra “OTRO”. En caso de puntos desconocidos.
+                                   </li>
+                                   <li>
+                                       Se podrá adjuntar archivos hasta un máximo de cinco (5) Mb.
+                                   </li>
+                               </ul>
+                      
+                   </dx:ContentControl>
+               </ContentCollection>
+           </dx:TabPage>
+           <dx:TabPage Text="Anexo A">
+               <ContentCollection>
+                   <dx:ContentControl>
+                       <h4>INCIDENTES Y PELIGROS OPERACIONALES QUE DEBEN NOTIFICARSE OBLIGATORIAMENTE
+
+                       </h4>
+                       <p>
+                           Los eventos que deben reportarse obligatoriamente son aquellos en los que la seguridad de la
+operación estuvo o pudo estar en peligro o que pudieran haber dado lugar a condiciones inseguras.
+Si, a juicio de la persona que reporta, un evento que no haya afectado a la seguridad de la
+operación pudiese crear peligro en el caso probable de repetirse en condiciones diferentes, deberá
+notificarlo.
+La lista abarca los siguientes aspectos: Operaciones de vuelo de las aeronaves, elementos técnicos
+de las aeronaves, mantenimiento y reparación de la aeronave, servicios de navegación aérea,
+instalaciones, servicios de control ATC en tierra y aeródromos e instalaciones aeroportuarias.
+                       </p>
+                       <ol>
+                           <li>Operaciones de vuelo de las aeronaves.
+                               <ol>
+                                   <li>
+                                       Funcionamiento de la aeronave 
+                                       <ol>
+                                           <li>
+                                               Maniobras Evasivas:
+                                               <ul>
+                                                   <li>
+                                                       Riesgo de colisión con una aeronave, el terreno u otro objeto o una situación insegura cuando
+habría correspondido una acción evasiva. Maniobra evasiva necesaria para evitar una colisión
+con una aeronave, el terreno u otro objeto.
+                                                   </li>
+                                                   <li>
+                                                       Maniobra evasiva para evitar otras situaciones inseguras.
+                                                   </li>
+                                               </ul>
+                                           </li>
+                                           <li>
+                                               Incidentes de despegue o aterrizaje, incluidos aterrizajes preventivos o Forzosos. Incidentes
+tales como aterrizajes demasiado cortos, demasiado largos o fuera de pista.
+                                           </li>
+                                           <li>
+                                               Despegue, abortaje de despegue, aterrizajes o aterrizajes frustrados en una pista cerrada,
+ocupada o incorrecta.
+                                           </li>
+                                           <li>
+                                               Incursiones en la pista.
+                                           </li>
+                                           <li>
+                                               Incidentes con el chorro del reactor o las hélices que causen un daño significativo o una
+lesión grave.
+                                           </li>
+                                           <li>
+                                               Incapacidad de lograr los resultados previstos durante el despegue o el ascenso inicial.
+                                           </li>
+                                           <li>
+                                               Cantidad críticamente baja de combustible o incapacidad de transferir combustible o de
+utilizar la cantidad total de combustible utilizable. 
+                                           </li>
+                                           <li>
+                                               Pérdida de control (incluida la pérdida parcial o temporal de control) por cualquier causa.
+                                           </li>
+                                           <li>
+                                               Sucesos a velocidad cercana o superior a V1 resultado de una situación Peligrosa o
+potencialmente peligrosa o que provoquen una situación peligrosa (por ejemplo, despegue
+abortado, impacto de la cola con la pista, pérdida de potencia del motor, etc.)
+                                           </li>
+                                           <li>
+                                               Aproximación frustrada que provoque una situación peligrosa o potencialmente peligrosa.
+                                           </li>
+                                           <li>
+                                               Desviación significativa involuntaria de la velocidad aerodinámica, de la ruta o de la altitud
+previstas (más de 300 pies) por cualquier causa.
+                                           </li>
+                                           <li>
+                                               Descenso por debajo de la altura/altitud de decisión o altura/altitud mínima de descenso
+sin la referencia visual necesaria.
+                                           </li>
+                                           <li>
+                                               Pérdida de conciencia de la posición real o de la posición en relación con otra aeronave.
+                                           </li>
+                                           <li>
+                                               Falla en la comunicación entre la tripulación de vuelo (CRM) o entre la tripulación de vuelo
+y otro personal aeronáutico (tripulación de cabina, ATC, técnicos).
+                                           </li>
+                                           <li>
+                                               Aterrizaje duro (aterrizaje que requiera una inspección por aterrizaje duro).
+                                           </li>
+                                           <li>
+                                               Superación de los límites de masa y centrado del combustible.
+                                           </li>
+                                           <li>
+                                               Reglaje incorrecto del altímetro.
+                                           </li>
+                                           <li>
+                                               Programación incorrecta, ingreso erróneo de datos en el equipo utilizado para los cálculos
+de navegación o uso de datos incorrectos
+                                           </li>
+                                           <li>
+                                               Recepción o interpretación incorrecta de mensajes radiotelefónicos.
+                                           </li>
+                                           <li>
+                                               Mal funcionamiento o defectos del sistema de combustible que tengan repercusiones
+significativas sobre la alimentación o la distribución del combustible.
+                                           </li>
+                                           <li>
+                                               Salida no intencionada de una aeronave de la plataforma y calle de rodaje.
+                                           </li>
+                                           <li>
+                                               Colisión entre una aeronave y otra aeronave, vehículo u otro objeto en tierra.
+                                           </li>
+                                           <li>
+                                               Accionamiento incorrecto o inadvertido de cualquier mando.
+                                           </li>
+                                           <li>
+                                               Incapacidad de lograr la configuración prevista de la aeronave en cualquier fase de vuelo
+(por ejemplo, tren de aterrizaje y sus compuertas, slats, estabilizadores, flaps, etc.).
+                                           </li>
+                                           <li>
+                                               Vibración anormal
+                                           </li>
+                                           <li>
+                                               Activación de cualquier sistema primario de alarma asociado a una maniobra de la
+aeronave como, por ejemplo, aviso de configuración, aviso de pérdida de sustentación
+(stick shaker), aviso de exceso de velocidad, y otros, a menos que: la tripulación haya
+determinado concluyentemente que la indicación era falsa, siempre que la falsa alarma no
+provoque dificultades o peligro por la respuesta de la tripulación ante el aviso, o funcione a
+efectos de entrenamiento o de prueba
+                                           </li>
+                                           <li>
+                                               Aviso GPWS/TAWS cuando:
+                                               <ul>
+                                                   <li>
+                                                       La aeronave se acerque a tierra más de lo previsto, o el aviso se produce en condiciones
+meteorológicas instrumentales (IMC) o por la noche y se establece que ha sido generado por 
+una velocidad elevada de descenso (modo 1), o el aviso se debe a una falla en la selección del
+tren o en la configuración de flaps para aterrizaje en el punto adecuado de la aproximación
+(modo 4), o
+                                                   </li>
+                                                   <li>
+                                                       Cualquier dificultad o peligro se deba o pueda haberse debido a la respuesta de la tripulación
+al aviso como, por ejemplo, una posible reducción de la distancia de otro tránsito. Esto puede
+incluir avisos de cualquier modo o tipo, es decir, aviso genuino, perturbación o falsa alarma.
+                                                   </li>
+                                                   <li>
+                                                       Aviso GPWS/TAWS en caso de dificultad o peligro que se deba o pueda haberse debido a la
+respuesta de la tripulación al aviso.
+                                                   </li>
+                                               </ul>
+                                           </li>
+                                       </ol>
+                                   </li>
+                                 
+                               </ol>
+                                                                     
+                                                                  
+                                   
+                           </li>
+                       </ol>
+                   </dx:ContentControl>
+               </ContentCollection>
+
+           </dx:TabPage>
+       </TabPages>
+    </dx:ASPxPageControl>
+    
+
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderForms" runat="server">
+</asp:Content>

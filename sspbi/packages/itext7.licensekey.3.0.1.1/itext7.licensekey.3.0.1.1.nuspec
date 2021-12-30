@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>itext7.licensekey</id>
+    <version>3.0.1.1</version>
+    <title>iText 7 License Key</title>
+    <authors>iText Software</authors>
+    <owners>iText Software</owners>
+    <licenseUrl>http://itextpdf.com/legal</licenseUrl>
+    <projectUrl>http://itextpdf.com/</projectUrl>
+    <iconUrl>http://itextpdf.com/sites/default/files/ITSC-avatar.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>License Key allows to use iText 7 library in non-AGPL mode and also provides access to iText 7 Add-Ons</description>
+    <summary />
+    <releaseNotes>http://itextpdf.com/itext7release</releaseNotes>
+    <copyright>Copyright (c) 1998-2018 iText Group NV</copyright>
+    <language>en-US</language>
+    <tags>itext itext7 itextsharp c# .net csharp pdf</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Common.Logging" version="3.4.1" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Common.Logging" version="3.4.1" />
+        <dependency id="NETStandard.Library" version="1.6.1" />
+        <dependency id="System.Xml.XmlDocument" version="4.3.0" />
+        <dependency id="System.Reflection.TypeExtensions" version="4.3.0" />
+        <dependency id="System.Security.Cryptography.Csp" version="4.3.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

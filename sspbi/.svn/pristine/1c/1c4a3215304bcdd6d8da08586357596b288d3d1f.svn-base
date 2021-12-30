@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <WebPublishMethod>MSDeploy</WebPublishMethod>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <SiteUrlToLaunchAfterPublish />
+    <LaunchSiteAfterPublish>True</LaunchSiteAfterPublish>
+    <ExcludeApp_Data>False</ExcludeApp_Data>
+    <MSDeployServiceURL>win-iisserv-01</MSDeployServiceURL>
+    <DeployIisAppPath>/SSP_BI</DeployIisAppPath>
+    <RemoteSitePhysicalPath />
+    <SkipExtraFilesOnServer>True</SkipExtraFilesOnServer>
+    <MSDeployPublishMethod>WMSVC</MSDeployPublishMethod>
+    <EnableMSDeployBackup>True</EnableMSDeployBackup>
+    <UserName>DGAC\richard.martinezo</UserName>
+    <_SavePWD>True</_SavePWD>
+    <PublishDatabaseSettings>
+      <Objects xmlns="">
+        <ObjectGroup Name="win-sqlserv-02_SSP_BI_Connection" Order="1" Enabled="False">
+          <Destination Path="" />
+          <Object Type="DbDacFx">
+            <PreSource Path="XpoProvider=MSSqlServer;data source=win-sqlserv-02;user id=adminsql;password=sistema*-!;initial catalog=SSP_BI;Persist Security Info=true" includeData="False" />
+            <Source Path="$(IntermediateOutputPath)AutoScripts\win-sqlserv-02_SSP_BI_Connection_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+          </Object>
+          <UpdateFrom Type="Web.Config">
+            <Source MatchValue="XpoProvider=MSSqlServer;data source=win-sqlserv-02;user id=adminsql;password=sistema*-!;initial catalog=SSP_BI;Persist Security Info=true" MatchAttributes="$(UpdateFromConnectionStringAttributes)" />
+          </UpdateFrom>
+        </ObjectGroup>
+        <ObjectGroup Name="DefaultConnection" Order="2" Enabled="False">
+          <Destination Path="" />
+          <Object Type="DbDacFx">
+            <PreSource Path="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-sspbi-20160720125654.mdf;Initial Catalog=aspnet-sspbi-20160720125654;Integrated Security=True" includeData="False" />
+            <Source Path="$(IntermediateOutputPath)AutoScripts\DefaultConnection_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+          </Object>
+          <UpdateFrom Type="Web.Config">
+            <Source MatchValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-sspbi-20160720125654;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-sspbi-20160720125654.mdf" MatchAttributes="$(UpdateFromConnectionStringAttributes)" />
+          </UpdateFrom>
+        </ObjectGroup>
+        <ObjectGroup Name="SSP_BIConnectionString" Order="3" Enabled="False">
+          <Destination Path="" />
+          <Object Type="DbDacFx">
+            <PreSource Path="Data Source=WIN-SQLSERV-02;Initial Catalog=SSP_BI;Integrated Security=True" includeData="False" />
+            <Source Path="$(IntermediateOutputPath)AutoScripts\SSP_BIConnectionString_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+          </Object>
+          <UpdateFrom Type="Web.Config">
+            <Source MatchValue="Data Source=WIN-SQLSERV-02;Initial Catalog=SSP_BI;Integrated Security=True" MatchAttributes="$(UpdateFromConnectionStringAttributes)" />
+          </UpdateFrom>
+        </ObjectGroup>
+        <ObjectGroup Name="SSP_BIConnectionString2" Order="4" Enabled="False">
+          <Destination Path="" />
+          <Object Type="DbDacFx">
+            <PreSource Path="Data Source=WIN-SQLSERV-02;Initial Catalog=SSP_BI;Persist Security Info=True;User ID=adminsql;Password=sistema*-!" includeData="False" />
+            <Source Path="$(IntermediateOutputPath)AutoScripts\SSP_BIConnectionString2_IncrementalSchemaOnly.dacpac" dacpacAction="Deploy" />
+          </Object>
+          <UpdateFrom Type="Web.Config">
+            <Source MatchValue="Data Source=WIN-SQLSERV-02;Initial Catalog=SSP_BI;Persist Security Info=True;User ID=adminsql;Password=sistema*-!" MatchAttributes="$(UpdateFromConnectionStringAttributes)" />
+          </UpdateFrom>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <MSDeployParameterValue Include="$(DeployParameterPrefix)DefaultConnection-Web.config Connection String" />
+    <MSDeployParameterValue Include="$(DeployParameterPrefix)SSP_BIConnectionString-Web.config Connection String" />
+    <MSDeployParameterValue Include="$(DeployParameterPrefix)SSP_BIConnectionString2-Web.config Connection String" />
+    <MSDeployParameterValue Include="$(DeployParameterPrefix)win-sqlserv-02_SSP_BI_Connection-Web.config Connection String" />
+  </ItemGroup>
+</Project>

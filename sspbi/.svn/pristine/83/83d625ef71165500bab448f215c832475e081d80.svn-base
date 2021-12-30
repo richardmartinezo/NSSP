@@ -1,0 +1,247 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Main_Menu.master.vb" Inherits="sspbi.Main_Menu" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dx" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="www.html5xcss3.com" />
+    <title>Programa de Seguridad del Estado</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <!-- Bootstrap core CSS-->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+   <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- Custom fonts for this template-->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <!-- Custom styles for this template-->
+
+    <style type="text/css">
+ 
+        .elemento-columna-1 {
+            width: 30%;
+        }
+
+        .elemento-columna-2 {
+            width: 50%;
+        }
+
+        .elemento-columna-3 {
+            width: 20%;
+        }
+
+        .columna-tr {
+            width: 100%;
+        }
+
+        .table-row {
+             background-color: black;
+        }
+        .paragraph-right {
+            text-align: right;
+            font: 100 15px;
+            color: white;
+
+        }
+        .paragraph-header {
+            text-align: center;
+            font-size: 25px;
+            font-family: 'Global Serif';
+            width: 1079px;
+        }
+         .paragraph-left {
+            text-align: left;
+            font: 100 15px;
+            color: white;
+
+        }
+        .image-nssp {
+            text-align :right;
+            align-self : center;
+            height: 90px; 
+            width: 100px;
+        }
+        .div-center {
+            text-align: center;
+
+        }
+
+           .fondoForm {
+            position: relative;
+            width: 80%;
+            height: 80%;
+            background-color: #ceffff; 
+        }
+          
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+                   <%--cab.--%>
+               <div class="container">        
+                     <div class="row justify-content-center">
+                          <div class="col-md-2 mt-md-none mt-3 d-none d-md-block">
+                                <a href="../default.aspx">
+                                    <asp:Image runat="server" ImageUrl="~/Images/logo_header.png" ID="Image1" Height="61px" Width="175px"></asp:Image>
+                                </a>
+                           </div>
+                           <div class="col-md-8 mt-md-0 mt-2">
+                                <p class="paragraph-header">
+                                    SISTEMA DE NOTIFICACIÓN DEL ESTADO <br/>
+                                     N-SSP 
+                                    <br />
+                                </p>
+                           </div>  
+                            <div class="col-md-1 mt-md-1 mr-5 d-none d-md-block">
+                                <a href="../default.aspx">
+                                   <!-- <img alt="SSPec_LOGO" src="~/Images/notificaciones_main2.jpg" class="image-nssp"/> -->
+                                </a>
+                           </div>
+                    </div>
+            </div>
+                   <%-- menu --%>   
+                    <dx:ASPxPanel ID="ASPxPanel1" runat="server" CssClass="container">
+                        <PanelCollection>
+                            <dx:PanelContent runat="server">
+                                <dx:ASPxMenu ID="ASPxMenuPrincipal" runat="server" ClientInstanceName="menuprincipal" Theme="iOS" Width="100%" EnableTheming="True" CssClass="navbar-dark navbar-text">
+                                    <Items>
+                                        <dx:MenuItem NavigateUrl="~/default.aspx" Text="Inicio">
+                                        </dx:MenuItem>
+                                        <dx:MenuItem NavigateUrl="~/Main_Menu/Login.aspx" Selected="True" Text="Login" Visible="False">
+                                        </dx:MenuItem>
+                                        <dx:MenuItem NavigateUrl="~/Formularios/reporte_voluntario.aspx" Text="Notificación Voluntaria">
+                                            <Items>
+                                                <dx:MenuItem NavigateUrl="~/Formularios/reporte_voluntario_ATS.aspx" Text="Notificación Voluntaria ATS">
+                                                </dx:MenuItem>
+                                            </Items>
+                                        </dx:MenuItem>
+                                        <dx:MenuItem Text="Notificación Obligatoria">
+                                            <Items>
+                                                <dx:MenuItem NavigateUrl="~/Formularios/reporte_accidentes_incidentes_RIPO.aspx" Text="Notificación RIPO">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem NavigateUrl="~/Formularios/reporte_sucesos_ATS.aspx" Text="Notificación ATS">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Notificación IBIS">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Notificación LHD">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem NavigateUrl="~/Formularios/reporte_aero.aspx" Text="Notificación AERO">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Notificación AVIS">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Notificación MERC">
+                                                </dx:MenuItem>
+                                                <dx:MenuItem Text="Notificación ACTIL">
+                                                </dx:MenuItem>
+                                            </Items>
+                                        </dx:MenuItem>
+                                        <dx:MenuItem BeginGroup="True" Text="FAQ">
+                                        </dx:MenuItem>
+                                        <dx:MenuItem NavigateUrl="~/Main_Menu/Login.aspx" Text="Login">
+                                        </dx:MenuItem>
+                                        <dx:MenuItem NavigateUrl="http://www.aviacioncivil.gob.ec/?page_id=525" Text="Biblioteca">
+                                        </dx:MenuItem>
+                                    </Items>
+                                </dx:ASPxMenu>
+
+                 <%-- prueba codigo nabar --%>
+<%--                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<%--              
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+
+                            <div class="collapse navbar-collapse nav-justified" id="navbarSupportedContent">
+                              <ul class="navbar-nav container">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="../default.aspx"><h6 class="navbar-text">Inicio</h6>
+                                     </a>   
+                               </li>
+                            <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle"  id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <h6 class="navbar-text">Notificación Voluntaria</h6>
+                                    </a>
+                                    <div class="dropdown-menu bg-dark navbar-dark" aria-labelledby="navbarDropdown2">
+                                        <a class="dropdown-item navbar-text" href="../Formularios/reporte_voluntario.aspx">Reporte Notificación Voluntaria </a>
+                                            <a class="dropdown-item navbar-text" href="../Formularios/reporte_voluntario_ATS.aspx">Notificación Voluntaria ATS</a>                           
+                                    </div>
+                            </li>
+
+                            <li class="nav-item dropdown active">
+                                    <a class="nav-link dropdown-toggle" href="#"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <h6 class="navbar-text">Notificación Obligatoria</h6>
+                                    </a>
+                                    <div class="dropdown-menu bg-dark navbar-dark" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item navbar-text" href="../Formularios/reporte_sucesos_ATS.aspx">Sucesos ATS</a>
+                                            <a class="dropdown-item navbar-text" href="../Formularios/reporte_accidentes_incidentes_RIPO.aspx">Accidentes e Incidentes</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item navbar-text" href="../Formularios/reporte_aero.aspx">Formulario de Aeronaves</a>                           
+                                    </div>
+                            </li>
+                                <li class="nav-item active">
+                                <a class="nav-link" href="#"><h6 class="navbar-text">FAQ</h6>
+                                </li>                
+                            </ul>
+                            </div>
+        </nav>--%>
+                            </dx:PanelContent>
+                        </PanelCollection>
+                    </dx:ASPxPanel>
+       
+
+                        
+                   <%-- cuerpo--%>
+                    <div class="container">                 
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolderBody" runat="server">
+                            </asp:ContentPlaceHolder>
+                   </div>
+                                        
+                    
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderForms" runat="server" >
+                        </asp:ContentPlaceHolder>
+
+    </form>
+   <!-- Footer -->
+    <footer class="container">
+        <div class="page-footer pt-5  bg-dark">
+        <div class="container-fluid text-center text-md-left">
+                  <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+                  <!-- Content -->
+                  <p class="text-center text-white">
+                    <i class="fas fa-fighter-jet"></i>
+                    Dirección General de Aviación Civil del Ecuador<br />
+                    Programa estatal de seguridad operacional - SSP
+                    <br />
+                </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                  <!-- Grid column -->
+                  <div class="col-md-6 mt-md-0 mt-3">       
+                      <p class="text-center text-white">
+                          <i class="fas fa-map-marked-alt"></i>
+                            Buenos Aires Oe-53 y Av. 10 de Agosto<br />
+                            Quito - Ecuador
+                            <br />
+                          <i class="fas fa-phone-square"></i>
+                           (593) 2-947400 Ext: 4830<br />
+                       </p>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

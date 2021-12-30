@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>itextsharp.licensekey</id>
+    <version>1.0.4</version>
+    <title>iTextSharp License Key Library</title>
+    <authors>iText Software</authors>
+    <owners>iText Software</owners>
+    <licenseUrl>http://itextpdf.com/Pricing</licenseUrl>
+    <projectUrl>http://itextpdf.com/</projectUrl>
+    <iconUrl>http://itextpdf.com/sites/default/files/ITSC-avatar.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>iText is a PDF library that allows you to CREATE, ADAPT, INSPECT and MAINTAIN documents in the Portable Document Format (PDF):
+ - Generate documents and reports based on data from an XML file or a database
+ - Create maps and books, exploiting numerous interactive features available in PDF
+ - Add bookmarks, page numbers, watermarks, and other features to existing PDF documents
+ - Split or concatenate pages from existing PDF files
+ - Fill out interactive forms
+ - Serve dynamically generated or manipulated PDF documents to a web browser
+
+ iText is used by Java, .NET, Android and GAE developers to enhance their applications with PDF functionality. 
+ iTextSharp is the .NET port.
+
+ Several iText engineers are actively supporting the project on StackOverflow: http://stackoverflow.com/questions/tagged/itext</description>
+    <summary>License key library to unlock the commercial features and add-ons of iTextSharp v5. Contact iText Software to purchase a license key or to request a trial license: http://itextpdf.com/contact</summary>
+    <copyright>Copyright (c) 1998-2016 iText Group NV</copyright>
+    <language>en-US</language>
+    <tags>itext itextsharp c# .net csharp pdf license</tags>
+  </metadata>
+</package>
